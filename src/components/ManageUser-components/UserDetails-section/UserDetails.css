@@ -1,0 +1,115 @@
+.user-info-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.user-sidebar {
+  width: 30%;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.user-avatar {
+  margin-bottom: 20px;
+}
+
+.avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.user-details {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.status-active {
+  color: green;
+  font-weight: bold;
+}
+
+.delete-account-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.user-info-content {
+  flex: 1;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.content-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column; /* เรียงข้อความในแนวตั้ง */
+  text-align: left; /* จัดข้อความชิดซ้าย */
+  gap: 8px; /* เพิ่มระยะห่างระหว่าง <span> กับ <input> */
+}
+
+.input-container input {
+  width: 25rem;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+.edit-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+.edit-btn:hover {
+  color: #666;
+}
+
+
+.content-title{
+  margin-bottom: 5rem;
+  margin-right: 46rem;
+}
