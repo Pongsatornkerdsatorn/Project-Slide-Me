@@ -1,0 +1,143 @@
+/* สไตล์พื้นฐาน */
+.addcar-container {
+	background-color: #f9f9f9;
+	padding: 20px;
+	font-family: 'Arial', sans-serif;
+	min-height: 100vh;
+}
+
+/* ส่วนฟอร์ม */
+.addcar-form {
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 2px solid rgb(19, 230, 15); /* กรอบสีเขียว */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 20px; /* ขอบโค้งมน */
+	max-width: 1000px;
+	text-align: left;
+}
+
+.addcar-form-input {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.inputs {
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: flex-start;
+	gap: 2px;
+	margin-top: -4px;
+	margin-bottom: 10px;
+}
+
+.button-container button {
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 8px 16px;
+	transition: all 0.3s ease;
+}
+
+.button-container button:hover {
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+/* ส่วนการแสดงรายการรถ */
+.addcar-img {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border: 2px solid #13e60f; /* กรอบสีเขียว */
+	border-radius: 20px; /* ขอบโค้งมน */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.Addcar-card-container {
+	width: 230px;
+	background-color: #fff;
+	border: 2px solid #13e60f; /* กรอบสีดำ */
+	border-radius: 15px; /* ขอบโค้งมน */
+	box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+		0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+	text-align: center;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.Addcar-card-img-top {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-bottom: 2px solid black; /* กรอบรูป */
+	margin-top: 1rem;
+}
+
+.Addcar-card-body {
+	padding: 15px;
+}
+
+.Addcar-card-title {
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.Addcar-card-body p {
+	color: #000000;
+	font-size: 14px;
+	margin: 5px 0;
+	text-align: left;
+}
+
+.button-container .btn-success {
+	background-color: #28a745;
+	color: white;
+}
+
+.button-container .btn-success:hover {
+	background-color: #218838;
+}
+
+.button-container .btn-danger {
+	background-color: #dc3545;
+	color: white;
+}
+
+.button-container .btn-danger:hover {
+	background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.addcar-form {
+		width: 90%;
+		margin: 20px auto;
+		padding: 15px;
+	}
+
+	.addcar-img {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card-container {
+		width: 90%;
+	}
+}
+

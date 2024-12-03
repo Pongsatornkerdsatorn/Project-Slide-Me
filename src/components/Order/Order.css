@@ -1,0 +1,111 @@
+/* ปรับสไตล์ของตาราง */
+.Order-table {
+	width: 80%; /* กำหนดความกว้างของตาราง */
+	margin: 30px auto; /* ใช้ auto เพื่อให้ตารางอยู่กลางหน้าจอ */
+	font-size: 16px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ตาราง */
+	border-radius: 8px; /* ขอบมน */
+}
+
+.Order-table-text {
+	text-align: center;
+	color: #000000;
+}
+
+.Order-table-header {
+	color: brown;
+}
+
+.Order-table thead {
+	background-color: #4caf50; /* เปลี่ยนเป็นสีเขียวเข้ม */
+	font-weight: bold;
+	text-align: left;
+	color: white; /* สีตัวอักษรในหัวข้อเป็นสีขาว */
+}
+
+.Order-table th,
+.Order-table td {
+	padding: 15px;
+	border: 1px solid #ddd;
+}
+
+.Order-table tbody tr:hover {
+	background-color: #e2f7e2; /* เปลี่ยนสีแถวเมื่อ hover เป็นสีเขียวอ่อน */
+}
+
+/* ปรับสไตล์ของปุ่มในตาราง */
+.Order-table .btn {
+	font-size: 14px;
+	padding: 6px 12px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.Order-table .btn-info {
+	background-color: #17a2b8;
+	color: white;
+}
+
+.Order-table .btn-info:hover {
+	background-color: #138496;
+}
+
+.Order-table .btn-success {
+	background-color: #28a745;
+	color: white;
+}
+
+.Order-table .btn-success:hover {
+	background-color: #218838;
+}
+
+.Order-table .btn-danger {
+	background-color: #dc3545;
+	color: white;
+}
+
+.Order-table .btn-danger:hover {
+	background-color: #c82333;
+}
+
+/* ปรับปุ่ม icon ภายในปุ่ม */
+.Order-table .btn span {
+	font-size: 18px;
+}
+
+/* ปรับรูปแบบของปุ่มในแถวสุดท้าย */
+.Order-table td button {
+	margin-right: 5px;
+}
+
+/* เพิ่มระยะห่างระหว่างแถวใน tbody */
+.Order-table tbody tr td {
+	vertical-align: middle;
+}
+
+/* ปรับรูปแบบให้ตารางดูสะอาดตา */
+.Order-table thead th {
+	background-color: #4caf50; /* สีเขียวเข้ม */
+	color: white; /* ตัวอักษรในหัวข้อเป็นสีขาว */
+}
+
+/* ปรับระยะห่างระหว่างหัวข้อและเนื้อหาตาราง */
+.Order-table th,
+.Order-table td {
+	padding: 15px;
+}
+
+/* เพิ่มสีพื้นหลังสำหรับการโฮเวอร์แถว */
+.Order-table tbody tr:hover {
+	background-color: #e2f7e2; /* สีเขียวอ่อนเมื่อ hover */
+}
+
+/* ปรับปุ่มบันทึก */
+.save {
+	background-color: #4caf50;
+	color: white;
+}

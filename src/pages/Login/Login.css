@@ -1,0 +1,72 @@
+.login-page {
+	font-family: Arial, sans-serif;
+	background-color: #08a54c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+/* กล่อง Login */
+.login-container {
+	display: flex;
+	flex-direction: row; /* จัดให้อยู่ในแนวนอน */
+	height: 400px;
+	width: 900px; /* ความกว้างของกล่อง Login */
+	background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	overflow: hidden; /* ซ่อนขอบที่เกิน */
+}
+
+/* ด้านซ้าย: โลโก้ */
+.login-left {
+	width: 40%; /* สัดส่วนด้านซ้าย */
+	background-color: #ffffff; /* สีพื้นหลังอ่อน */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-img {
+	width: 95%; /* ขนาดโลโก้ */
+	height: auto;
+}
+
+/* ด้านขวา: ฟอร์ม */
+.login-right {
+	width: 50%; /* สัดส่วนด้านขวา */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-right h1 {
+	font-size: 28px;
+	color: #08a54c;
+	margin-bottom: 20px;
+}
+
+.login-form {
+	width: 85%;
+	padding: 12px;
+	margin: 10px 0;
+	border: 1px solid #c8e6c9;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-left: 45px;
+}
+.login-button {
+	width: 85%;
+	padding: 12px;
+	margin-top: 10px;
+	background-color: #08a54c;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-left: 40px;
+}

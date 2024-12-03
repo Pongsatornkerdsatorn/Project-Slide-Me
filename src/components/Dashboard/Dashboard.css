@@ -1,0 +1,64 @@
+/* สไตล์สำหรับแถบด้านบน */
+
+/* สไตล์สำหรับ title และ profile */
+
+/* สไตล์สำหรับ container และกล่องสามกล่อง */
+.box-container {
+	display: flex;
+	margin-top: 1rem;
+	justify-content: space-between;
+	padding: 2rem;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.box {
+	flex: 1;
+	margin: 0 7px;
+	height: 100px;
+	background-color: #ffffff;
+	color: white;
+	display: flex;
+	border-radius: 8px;
+	border: 1px solid #5ecc54;
+	flex-direction: column;
+}
+.large-box {
+	width: 95%; /* ปรับให้เต็มเกือบทั้งหน้าจอ */
+	height: 100vh;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	margin-left: 2.5rem;
+	border-radius: 8px;
+	border: 1px solid #5ecc54;
+}
+
+.Usernow {
+	color: #000000; /* เปลี่ยนสีให้เห็นข้อความ */
+	font-size: 20px; /* ปรับขนาดตัวอักษร */
+	text-align: left;
+	margin: 0 7px;
+}
+.count {
+	color: #0e792e; /* เปลี่ยนสีให้เห็นข้อความ */
+	font-size: 20px; /* ปรับขนาดตัวอักษร */
+	text-align: left;
+	margin: 0 7px;
+}
+.Day {
+	color: #000; /* เปลี่ยนสีให้เห็นข้อความ */
+	font-size: 20px; /* ปรับขนาดตัวอักษร */
+	text-align: left;
+	margin: 0 7px;
+}
+.Barchart-container {
+	margin-left: 14rem;
+	margin-top: -80px; /* เลื่อนขึ้นข้างบน */
+}
+.Graph-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 180px;
+}

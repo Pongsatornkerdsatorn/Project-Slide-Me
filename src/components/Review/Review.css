@@ -1,0 +1,200 @@
+.Review-container {
+    width: 100%;
+    height: 100%;
+    /* background-color: #08A54C; */
+    /* border: #000000 solid 1px; */
+}
+
+.Review-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    margin: auto 10%;
+}
+
+.Review-Blackground {
+    display: flex;
+    justify-content: flex-start
+}
+
+.Review-Graph {
+    /* background-color: #81C784; สีพื้นหลังครึ่งบน */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 500px;
+}
+
+.Review-Box {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1200px;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid #042c07;
+    border-radius: 8px;
+    background-color: #A5D6A7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.Review-Average {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #042c07;
+    margin-top: 200px;
+    padding: 10px;
+    max-width: 250px;
+    max-height:250px;
+    margin: 50px 100px 0px 150px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80%;
+    /* เพิ่มระยะห่าง */
+    width: 80%;
+}
+
+
+.star-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-left:  60px;
+    margin-top: -10px;
+    width: 80%;
+}
+.position-graph {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+    margin-left: 100px;
+    margin-top: -250px;
+    border-radius: 8px; 
+    max-width: 90%; 
+    
+}
+.box1 {
+    display: flex;
+    width: 25px; 
+    height: 25px; 
+    background-color: #1B5E20; 
+    padding: 10px; 
+    margin: 10px 50px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.box2 {
+    display: flex;
+    width: 25px; 
+    height: 25px; 
+    background-color: #388E3C; 
+    padding: 10px; 
+    margin: 10px 50px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.box3 {
+    display: flex;
+    width: 25px; 
+    height: 25px; 
+    background-color: #66BB6A; 
+    padding: 10px; 
+    margin: 10px 50px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.box4 {
+    display: flex;
+    width: 25px; 
+    height: 25px; 
+    background-color: #81C784; 
+    padding: 10px; 
+    margin: 10px 50px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.box5 {
+    display: flex;
+    width: 25px; 
+    height: 25px; 
+    background-color: #A5D6A7; 
+    padding: 10px; 
+    margin: 10px 50px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.select-review {
+    width: 200px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.select-review:focus {
+    outline: none;
+    border-color: #66bb6a;
+    box-shadow: 0 0 5px rgba(102, 187, 106, 0.5);
+}
+
+.select-review:hover {
+    background-color: #f1f8e9;
+    cursor: pointer;
+}
+
+.select-review-container {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 16px; 
+    margin: 0 auto;
+    width: 100%; 
+}
+
+.star-icon {
+    color: #1B5E20; 
+    font-size: 1.2em; 
+    margin-right: 5px; 
+}
+
+/* .star-distribution {
+    margin: 30px;
+    max-width: 700px;
+} */
+
+/* .progress-bar-container {
+    margin: 10px 0;
+} */
+
+/* เพิ่มความหนาให้กับ ProgressBar */
+/* .progress-bar-wrapper .progress {
+    height: 20px; 
+    border-radius: 10px;
+} */
+
+/* การสั่น (shake) ยังทำงานเหมือนเดิม */
+/* @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+} */
+/* 
+.progress-bar-wrapper {
+    animation: shake 0.5s ease-in-out;
+    animation-iteration-count: infinite;
+} */
+

@@ -1,0 +1,37 @@
+.text-detail {
+	color: #030303;
+	text-align: left;
+	margin-bottom: 35px;
+}
+.map-text-container {
+	border: 1px solid #f7f4f4;
+	padding: 10px;
+	margin-top: -5px;
+	width: 1000px;
+	box-shadow: 0px 15px 15px rgba(102, 83, 83, 0.2);
+}
+
+.details {
+	display: grid;
+	grid-template-columns: auto auto; /* 2 คอลัมน์ */
+	column-gap: -10px;
+}
+
+.detail {
+	color: #000000;
+	margin-top: -9px;
+}
+
+.inside {
+	color: green;
+	margin-right: 10rem;
+	font-size: 20px;
+}
+.wrapper-container {
+	border: 2px solid #eeecec;
+	box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+	padding: 20px; /* ระยะห่างภายในกล่อง */
+	border-radius: 8px; /* มุมมน */
+	width: 1050px; /* ความกว้างของกล่อง */
+	margin-top: 150px;
+}

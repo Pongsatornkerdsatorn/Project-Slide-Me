@@ -1,0 +1,188 @@
+/* ปรับปรุงการจัดวาง Banner-container */
+.Banner-container {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	padding: 20px;
+	background-color: #f1f8e9;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+/* ปุ่มหลัก */
+.Banner-button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	background-color: #388e3c;
+	color: white;
+	transition: all 0.3s ease;
+	margin-bottom: 20px;
+}
+
+.Banner-button:hover {
+	background-color: #4caf50;
+	transform: scale(1.05);
+}
+
+/* Modal และ Form */
+.Banner-modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	width: 90%;
+	max-width: 400px;
+	max-height: 80vh;
+	overflow-y: auto;
+}
+
+.Banner-form .Banner-label {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 15px;
+	font-size: 14px;
+	color: #333;
+}
+
+.Banner-input,
+.Banner-select {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	transition: border-color 0.3s ease;
+}
+
+.Banner-input:focus,
+.Banner-select:focus {
+	border-color: #388e3c;
+	outline: none;
+}
+
+/* ปุ่มใน Modal */
+.Banner-buttons {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.Banner-submit,
+.Banner-cancel {
+	font-size: 14px;
+	padding: 8px 16px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.Banner-submit {
+	background-color: #388e3c;
+	color: white;
+}
+
+.Banner-submit:hover {
+	background-color: #4caf50;
+}
+
+.Banner-cancel {
+	background-color: #d32f2f;
+	color: white;
+}
+
+.Banner-cancel:hover {
+	background-color: #ef5350;
+}
+
+/* ตาราง */
+.Banner-table-container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+.Banner-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.Banner-table th,
+.Banner-table td {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.Banner-table th {
+	background-color: #08a54c;
+	color: white;
+}
+
+.Banner-table tr:nth-child(even) {
+	background-color: #f1f8e9;
+}
+
+.Banner-table tr:hover {
+	background-color: #81c784;
+	color: white;
+	transition: background-color 0.3s ease;
+}
+
+.Banner-image {
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	object-fit: cover;
+}
+
+/* Empty state */
+.Banner-empty {
+	text-align: center;
+	color: #888;
+	font-size: 14px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	font-style: italic;
+}
+
+/* ยืนยันการลบ */
+.Banner-confirm-delete {
+	text-align: center;
+	padding: 20px;
+}
+
+.Banner-confirm-delete p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+/* เพิ่มปุ่มปิดใน Modal */
+.Banner-modal .close-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	color: #888;
+	transition: color 0.3s ease;
+}
+
+.Banner-modal .close-btn:hover {
+	color: #333;
+}

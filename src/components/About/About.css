@@ -1,0 +1,55 @@
+.introduction-container {
+  background-color: #e8f5e9; /* สีเขียวอ่อน */
+  color: #2e7d32; /* สีเขียวเข้ม */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.introduction-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.introduction-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.introduction-card {
+  background-color: #ffffff; /* สีพื้นหลังของการ์ด */
+  border: 2px solid #2e7d32;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.introduction-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.introduction-image {
+  width: 100%;
+  aspect-ratio: 1/1; /* กำหนดอัตราส่วน 1:1 */
+  object-fit: cover; /* ครอบตัดภาพให้พอดีกับพื้นที่ */
+  border-bottom: 2px solid #2e7d32; /* เส้นแบ่งด้านล่าง */
+}
+
+.introduction-details {
+  padding: 10px;
+}
+
+.introduction-name {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+}
+
+.introduction-id {
+  font-size: 1rem;
+  color: #555555;
+}

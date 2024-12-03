@@ -1,0 +1,41 @@
+.Navbar-container {
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
+.Navbar-container .navbar-brand {
+	font-weight: bold;
+	margin-left: 1rem;
+	margin-right: 15rem;
+	color: #fff;
+}
+
+.Navbar-container .navbar {
+	background-color: #08a54c;
+	height: 6rem;
+}
+
+.Navbar-container .navbar-nav .nav-link,
+.Navbar-container .navbar-nav .dropdown-toggle,
+.Navbar-container .navbar-text a {
+	color: #fff;
+}
+
+.me-auto {
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+	color: #fff;
+}
+
+.span-icon {
+	margin-left: 2rem;
+	color: #fff;
+}
+
+.navbar-logo {
+	max-width: 60rem;
+	max-height: 80px;
+	object-fit: contain;
+}
